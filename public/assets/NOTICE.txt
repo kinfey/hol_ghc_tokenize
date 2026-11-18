@@ -1,0 +1,5 @@
+Technology marks identify the tools used in the workshop. No endorsement is implied.
+GitHub Copilot and GitHub marks: Primer Octicons (MIT), https://github.com/primer/octicons.
+Microsoft mark: Microsoft, https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks.
+Playwright logo: Microsoft Playwright website source (Apache-2.0), https://github.com/microsoft/playwright.
+HyperFrames mark: HyperFrames documentation favicon, https://hyperframes.heygen.com/.

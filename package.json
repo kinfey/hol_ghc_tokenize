@@ -1,0 +1,26 @@
+{
+  "name": "hol-ghc-tokenize",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "playwright test",
+    "screenshots": "cross-env CAPTURE=1 playwright test",
+    "bench": "node scripts/bench.mjs",
+    "vlog": "node scripts/vlog.mjs"
+  },
+  "dependencies": {
+    "@github/copilot-sdk": "1.0.34",
+    "gpt-tokenizer": "3.4.0",
+    "markdown-it": "14.1.1",
+    "@primer/octicons": "19.24.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "cross-env": "10.1.0"
+  }
+}

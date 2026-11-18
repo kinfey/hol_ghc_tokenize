@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-18",
+  "source": "Microsoft Copilot SDK assistant.usage, one sequential pair of fresh sessions",
+  "model": "gpt-6.2-sol",
+  "contextTier": "default",
+  "command": "npm run bench -- --step 2 --live",
+  "observations": [
+    { "label": "A / Baseline", "prompt": 400, "input": 3565, "cacheRead": 0, "cacheWrite": 0, "output": 266, "words": 204, "rubric": true, "nanoAiu": 979000000 },
+    { "label": "B / Compressed", "prompt": 362, "input": 3527, "cacheRead": 0, "cacheWrite": 0, "output": 256, "words": 197, "rubric": true, "nanoAiu": 961400000 }
+  ]
+}
